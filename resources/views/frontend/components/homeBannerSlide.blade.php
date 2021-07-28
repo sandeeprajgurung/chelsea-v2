@@ -1,29 +1,89 @@
-<section>
-    <div id="carouselExampleControls" class="carousel slide home-banner__carousel" data-ride="carousel">
-        <div class="carousel-inner home-banner__carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100"
-                    src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"
-                    alt="First slide">
+<div class="full-slider">
+    <div id="carousel-example-generic" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- First slide -->
+            <div class="item active deepskyblue" data-ride="carousel" data-interval="5000">
+                <div class="carousel-caption">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="slider-contant" data-animation="animated fadeInRight">
+                            <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!
+                            </h3>
+                            <p>If you use this site regularly and would like to help keep the site on the Internet,<br>
+                                please consider donating a small sum to help pay..
+                            </p>
+                            <button class="btn btn-primary btn-lg">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100"
-                    src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-                    alt="Second slide">
+            <!-- /.item -->
+            <!-- Second slide -->
+            <div class="item skyblue" data-ride="carousel" data-interval="5000">
+                <div class="carousel-caption">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="slider-contant" data-animation="animated fadeInRight">
+                            <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!
+                            </h3>
+                            <p>You can make a case for several potential winners of<br>the expanded European
+                                Championships.</p>
+                            <button class="btn btn-primary btn-lg">Button</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100"
-                    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-                    alt="Third slide">
+            <!-- /.item -->
+            <!-- Third slide -->
+            <div class="item darkerskyblue" data-ride="carousel" data-interval="5000">
+                <div class="carousel-caption">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="slider-contant" data-animation="animated fadeInRight">
+                            <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!
+                            </h3>
+                            <p>You can make a case for several potential winners of<br>the expanded European
+                                Championships.</p>
+                            <button class="btn btn-primary btn-lg">Button</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- /.item -->
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!-- /.carousel-inner -->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
-</section>
+    <!-- /.carousel -->
+    <div class="news">
+        <div class="container">
+            <div class="heading-slider">
+                <p class="headline"><i class="fa fa-star" aria-hidden="true"></i> Top Headlines :</p>
+                <!--made by vipul mirajkar thevipulm.appspot.com-->
+                <h1>
+                    <a href="" class="typewrite" data-period="2000"
+                        data-type='[ "Contrary to popular belief, Lorem Ipsum is not simply random text.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+                <span class="wrap"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

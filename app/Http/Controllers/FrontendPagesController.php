@@ -19,6 +19,6 @@ class FrontendPagesController extends Controller
 
     public function index(Request $request)
     {
-        return view('frontend.views.home');
+        return view('frontend.views.home.index');
     }
 }

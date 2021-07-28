@@ -11,7 +11,16 @@ const mix = require('laravel-mix');
  |
  */
 
+ // Run all Mix tasks...
+// npm run dev
+
+// Run all Mix tasks and minify output...
+// npm run prod
+
+// npm run watch
+
+// npm run watch-poll
+
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/sass/main.scss', 'public/css')
     .sourceMaps();
