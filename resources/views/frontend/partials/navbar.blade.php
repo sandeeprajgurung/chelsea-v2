@@ -5,7 +5,7 @@
              <div class="col-md-6">
                 <div class="full">
                    <div class="logo">
-                      <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                      <a href="index.html"><img src="images/rgb-mar18.png" alt="#" /></a>
                    </div>
                 </div>
              </div>
@@ -113,7 +113,7 @@
                             </div>
                             <!-- /.nav-collapse -->
                          </nav>
-                         <div class="search-bar">
+                         {{-- <div class="search-bar">
                             <div id="imaginary_container">
                                <div class="input-group stylish-input-group">
                                   <input type="text" class="form-control"  placeholder="Search" >
@@ -122,7 +122,7 @@
                                   </span>
                                </div>
                             </div>
-                         </div>
+                         </div> --}}
                       </div>
                    </div>
                 </div>

@@ -115,7 +115,7 @@
      border-radius: 5px;
 }
  .btn.btn-primary.btn-lg:hover,.btn.btn-primary.btn-lg:focus {
-     background:#d8302f;
+     background:#123689;
 }
  #carousel-example-generic .carousel-caption {
      position: absolute;
@@ -169,8 +169,8 @@
      width: 100%;
 }
  .social-icons li a:hover,.social-icons li a:focus {
-     border-color:#d8302f;
-    background:#d8302f;
+     border-color:#123689;
+    background:#123689;
     color:#fff !important;
 }
  .login {
@@ -188,7 +188,7 @@
      padding: 9px 25px;
      color: #fff;
      font-size: 13px;
-     background: #d8302f;
+     background: #123689;
      border-radius: 50px;
      float: left;
 }
@@ -310,7 +310,7 @@
     border:none;
 }
  .main-menu-section .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li.active a, .main-menu-section .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:hover, .main-menu-section .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:focus {
-    border-color:#d8302f;
+    border-color:#123689;
 }
  .main-menu-section .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a span.caret {
      display:none;
@@ -383,7 +383,7 @@
      box-shadow: none;
 }
  .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:hover, .navbar.navbar-inverse .navbar-collapse ul.nav.navbar-nav li a:focus {
-     color: #d8302f;
+     color: #123689;
 }
 /** search bar **/
  .stylish-input-group .form-control{
@@ -414,7 +414,7 @@
      font-weight: 300;
      font-size: 18px;
      background: ;
-     border: solid #d8302f 2px;
+     border: solid #123689 2px;
 }
  .search-bar {
      float: right;
@@ -518,7 +518,7 @@
  .matchs-vs {
      float: left;
      width: 100%;
-     background: #d8302f;
+     background: #123689;
      color: #fff;
      min-height: 220px;
      padding: 90px 0;
@@ -609,7 +609,7 @@
 }
 /** end search bar **/
  div.menu div.search-bar .input-group-addon {
-     background: #d8302f;
+     background: #123689;
      border: none;
      border-radius: 0;
      color: #fff;
@@ -815,7 +815,7 @@
  section.main-heading h2::after {
      width: 50px;
      height: 4px;
-     background: #d8302f;
+     background: #123689;
      margin: 15px auto 0;
      display: block;
      position: relative;
@@ -894,14 +894,14 @@
      padding: 58px;
 }
  .footer-links a:hover, .footer a:hover {
-     color: #d8302f !important;
+     color: #123689 !important;
 }
  .information h3 {
      color: #222;
      text-transform: none;
      font-weight: 600;
      font-size: 20px;
-     border-left: solid #d8302f 5px;
+     border-left: solid #123689 5px;
      float: left;
      width: 100%;
      padding-left: 10px;
@@ -1006,7 +1006,7 @@
      color:#fff;
 }
  .breadcrumb > .active {
-     color: #d8302f;
+     color: #123689;
 }
  .inner-information-text {
      float: left;
@@ -1219,7 +1219,7 @@ section#contant h4 {
      left: auto;
      height: 100%;
      line-height: 58px;
-     background: #d8302f;
+     background: #123689;
      color: #fff;
      width: 48px;
      border: 0;
@@ -1243,7 +1243,7 @@ section#contant h4 {
      position: absolute;
      bottom: 100%;
      left: 0;
-     background: #d8302f;
+     background: #123689;
      z-index: 1;
      padding: 3px 20px 2px;
      text-transform: capitalize;
@@ -1258,7 +1258,7 @@ section#contant h4 {
     top: 1px;
     width: 0;
     height: 0;
-    border-bottom: 30px solid #d8302f;
+    border-bottom: 30px solid #123689;
     border-right: 20px solid transparent;
 }
  .team-column.style-2 .overlay {
@@ -1427,7 +1427,7 @@ section#contant h4 {
 body section#contant .post-info span h4 {
     font-size: 16px;
     margin: 0;
-    color: #d8302f;
+    color: #123689;
     text-align: left;
     padding: 10px 0 0 0;
 }
@@ -1468,7 +1468,7 @@ body section#contant .post-info span h4 {
 }
  .btn {
      float: left;
-     background: #d8302f;
+     background: #123689;
      color: #fff;
      padding: 10px 20px;
      font-size: 15px;
@@ -1579,7 +1579,7 @@ body section#contant .post-info span h4 {
      width:100%;
 }
  #contactform ul li input.thbg-color {
-     background: #d8302f;
+     background: #123689;
      border: none;
      color: #fff;
      text-transform: uppercase;
@@ -1651,7 +1651,7 @@ body section#contant .post-info span h4 {
  .clients-say .text-right {
      float: right;
      transform: skew(0deg);
-     color: #d8302f;
+     color: #123689;
      font-weight: 400;
      width: 100%;
      font-size: 15px;
@@ -1729,7 +1729,7 @@ body section#contant .post-info span h4 {
      margin-right: 0;
 }
  span a.comment-reply-link {
-     color: #d8302f;
+     color: #123689;
      font-weight: 500;
 }
  .comment-box-half {
@@ -1759,7 +1759,7 @@ body section#contant .post-info span h4 {
      font-size: 16px;
      text-transform: none;
      letter-spacing: 0px;
-     background: #d8302f;
+     background: #123689;
      border-radius: 0px;
      transition: ease all 1s;
      color: #fff;

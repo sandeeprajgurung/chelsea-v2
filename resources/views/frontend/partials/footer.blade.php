@@ -5,7 +5,7 @@
                 <div class="full">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="#"><img src="images/footer-logo.png" alt="#" /></a>
+                            <a href="#"><img src="images/rgb-mar18.png" alt="#" /></a>
                         </div>
                         <p>Most of our events have hard and easy route choices as we are always keen to encourage new
                             riders.</p>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            {{-- <div class="col-md-3">
                 <div class="full">
                     <div class="contact-footer">
                         <iframe
@@ -53,12 +53,12 @@
                             width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <p>Copyright © 2018 Distributed by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+            <p>Copyright © 2021</p>
         </div>
     </div>
 </footer>

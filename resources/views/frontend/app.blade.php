@@ -20,7 +20,7 @@
 <body class="game_info" data-spy="scroll" data-target=".header">
 
     <div id="preloader">
-        <img class="preloader" src="images/loading-img.gif" alt="">
+        <img class="preloader" src="images/tenor-2.gif" alt="">
     </div>
 
     <section id="top">
