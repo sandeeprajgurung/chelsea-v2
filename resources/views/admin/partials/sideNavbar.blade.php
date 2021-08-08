@@ -3,24 +3,24 @@
         <div class="sb-sidenav-menu">
             <div class="nav">
                 <div class="sb-sidenav-menu-heading">Core</div>
-                <a class="nav-link" href="index.html">
+                <a class="nav-link {{ Request::is('admin/dashboard') ? 'active' : ''}}" href="{{ route('admin.dashboard') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Dashboard
                 </a>
 
                 <div class="sb-sidenav-menu-heading">Publish</div>
-                <a class="nav-link" href="{{ route('admin.news') }}">
+                <a class="nav-link {{ Request::is('admin/news') ? 'active' : ''}}" href="{{ route('admin.news') }}">
                     <div class="sb-nav-link-icon"><i class="far fa-newspaper"></i></div>
                     News
                 </a>
 
                 <div class="sb-sidenav-menu-heading">Settings</div>
-                <a class="nav-link" href="{{ route('admin.types') }}">
+                <a class="nav-link {{ Request::is('admin/types') ? 'active' : ''}}" href="{{ route('admin.types') }}">
                     <div class="sb-nav-link-icon"><i class="far fa-newspaper"></i></div>
                     Type
                 </a>
 
-                <div class="sb-sidenav-menu-heading">Interface</div>
+                {{-- <div class="sb-sidenav-menu-heading">Interface</div>
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts"
                     aria-expanded="false" aria-controls="collapseLayouts">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -80,12 +80,11 @@
                 <a class="nav-link" href="tables.html">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                     Tables
-                </a>
+                </a> --}}
             </div>
         </div>
         <div class="sb-sidenav-footer">
-            <div class="small">Logged in as:</div>
-            Start Bootstrap
+            <div class="small">Chealsea FC Nepal</div>
         </div>
     </nav>
 </div>

@@ -26,7 +26,7 @@ Route::get('/', [FrontendPagesController::class, 'index']);
 
 // Route::get('/admin/login', [DashboardController::class, 'index']);
 // Route::get('/admin/register', [DashboardController::class, 'index']);
-Route::get('/admin/dashboard', [DashboardController::class, 'index']);
+Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
 Route::get('/admin/news', [NewsController::class, 'index'])->name('admin.news');
 Route::get('/admin/news/create', [NewsController::class, 'create'])->name('admin.news.create');
 
