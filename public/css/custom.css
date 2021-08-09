@@ -216,11 +216,6 @@
      min-height: auto;
      background: #fff;
 }
- .main-menu-section {
-     float: right;
-     width: 100%;
-     padding: 0;
-}
  .right_top_section {
      float: right;
      padding: 17px 0 0;
@@ -469,7 +464,8 @@
      margin-bottom: 0;
 }
  .full {
-     float: left;
+     display: flex;
+     justify-content: center;
      width: 100%;
      margin: 0;
      padding: 0;
@@ -2029,3 +2025,17 @@ body section#contant .post-info span h4 {
          min-height: auto;
     }
 }
+
+.logo.logo-base {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    left: 50px;
+    height: 150px;
+    padding: 1rem;
+    background: linear-gradient(to bottom right, white 50%, transparent 50%), linear-gradient(to bottom left, white 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 230% 100%, 230% 100%;
+    background-position: left, right;
+}
+
