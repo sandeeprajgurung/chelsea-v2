@@ -1,7 +1,6 @@
 <div class="matchs-info">
     <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="row">
-            @if ($nextMatch)
             <div class="full">
                 <div class="matchs-vs">
                     <div class="vs-team">
@@ -9,19 +8,18 @@
                             <ul>
                                 <li>
                                     <img src="images/img-03.png" alt="">
-                                    <span>{{ $nextMatch['matches']['0']['homeTeam']['name'] }}</span>
+                                    <span>Chelsea FC</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
                                     <img src="images/img-04.png" alt="">
-                                    <span>{{ $nextMatch['matches']['0']['awayTeam']['name'] }}</span>
+                                    <span>Real Madrid</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            @endif
         </div>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-12">

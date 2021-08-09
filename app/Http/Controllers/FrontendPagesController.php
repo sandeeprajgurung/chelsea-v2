@@ -20,8 +20,8 @@ class FrontendPagesController extends Controller
 
     public function index(Request $request)
     {
-        $APIFootballData = new APIFootballData();
-        $nextMatch = $APIFootballData->nextMatch();
-        return view('frontend.views.home.index', compact('nextMatch'));
+        // $APIFootballData = new APIFootballData();
+        // $nextMatch = $APIFootballData->nextMatch();
+        return view('frontend.views.home.index');
     }
 }
