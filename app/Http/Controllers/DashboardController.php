@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\FootballAPI\APIFootballData;
 
-class FrontendPagesController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Handle the incoming request.
@@ -20,8 +19,6 @@ class FrontendPagesController extends Controller
 
     public function index(Request $request)
     {
-        $APIFootballData = new APIFootballData();
-        $nextMatch = $APIFootballData->nextMatch();
-        return view('frontend.views.home.index', compact('nextMatch'));
+        return view('admin.views.dashboard');
     }
 }

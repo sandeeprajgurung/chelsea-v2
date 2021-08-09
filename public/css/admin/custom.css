@@ -1,0 +1,10 @@
+.breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #212529;
+}
+.breadcrumb .breadcrumb-item.active {
+    color: #2F68FA;
+}
+.ck-editor__editable {
+    min-height: 24rem !important;
+}
