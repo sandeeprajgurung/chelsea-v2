@@ -76,7 +76,7 @@ class RegisterController extends Controller
                 'address' => $data['address'],
             ]);
         } else {
-            return null;
+            return response(['message' => 'password mismatch']);
         }
     }
 }

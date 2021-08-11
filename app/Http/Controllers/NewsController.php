@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\News;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class NewsController extends Controller
 {
@@ -34,7 +37,22 @@ class NewsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'newsHeading' => 'required',
+            'editor' => 'required',
+            'newsType' => 'required',
+            // 'status' => 'required',
+        ]);
+
+        $news = new News;
+        $news->headline = $request->newsHeading;
+        $news->content = $request->editor;
+        $news->type = $request->newsType;
+        $news->status = "publish";
+        $news->user_id = auth()->user()->id;
+        $news->save();
+
+        return redirect()->route('admin.views.news.create');
     }
 
     /**
