@@ -59,7 +59,8 @@
                                   <li><a href="about.html">About</a></li>
                                   <li><a href="team.html">Team</a></li>
                                   <li><a href="news.html">News</a></li>
-                                  <li class="dropdown mega-dropdown">
+                                  <li><a href="matches.html">Matches</a></li>
+                                  <!-- <li class="dropdown mega-dropdown">
                                      <a href="match" class="dropdown-toggle" data-toggle="dropdown">Match<span class="caret"></span></a>				
                                      <ul class="dropdown-menu mega-dropdown-menu">
                                         <li class="col-sm-8">
@@ -69,20 +70,20 @@
                                                  <div class="carousel-inner">
                                                     <div class="item active">
                                                        <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/match-banner1.jpg" alt="#" /></a></div>
-                                                    </div>
+                                                    </div> -->
                                                     <!-- End Item -->
-                                                    <div class="item">
+                                                    <!-- <div class="item">
                                                        <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/match-banner1.jpg" alt="#" /></a></div>
-                                                    </div>
+                                                    </div> -->
                                                     <!-- End Item -->
-                                                    <div class="item">
+                                                    <!-- <div class="item">
                                                        <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/match-banner1.jpg" alt="#" /></a></div>
-                                                    </div>
+                                                    </div> -->
                                                     <!-- End Item -->                                
-                                                 </div>
+                                                 <!-- </div> -->
                                                  <!-- End Carousel Inner -->
                                                  <!-- Controls -->
-                                                 <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
+                                                 <!-- <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
                                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                                                  <span class="sr-only">Previous</span>
                                                  </a>
@@ -90,11 +91,11 @@
                                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                                  <span class="sr-only">Next</span>
                                                  </a>
-                                              </div>
+                                              </div> -->
                                               <!-- /.carousel -->
-                                           </ul>
-                                        </li>
-                                        <li class="col-sm-4">
+                                           <!-- </ul> -->
+                                        <!-- </li> -->
+                                        <!-- <li class="col-sm-4">
                                            <ul class="menu-inner">
                                               <li class="dropdown-header">Next Matchs</li>
                                               <li><a href="#">Contrary vs classical</a></li>
@@ -107,10 +108,11 @@
                                               <li><a href="#">Discovered vs undoubtable</a></li>
                                            </ul>
                                         </li>
-                                     </ul>
-                                  </li>
+                                     </ul> -->
+                                  <!-- </li> -->
                                   <li><a href="blog.html">Blog</a></li>
-                                  <li><a href="contact.html">contact</a></li>
+                                  <li><a href="shop.html">Shop</a></li>
+                                  <li><a href="contact.html">Contact</a></li>
                                </ul>
                             </div>
                             <!-- /.nav-collapse -->
