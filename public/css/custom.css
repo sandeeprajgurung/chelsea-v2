@@ -1378,7 +1378,7 @@ section#contant h4 {
      font-size: 14px;
 }
  .footer-logo img {
-     width: 180px;
+     width: 110px;
      padding-top: 10px;
 }
  .feature-post {
@@ -2028,4 +2028,9 @@ body section#contant .post-info span h4 {
          box-shadow: 0 0 100px -80px rgba(0,0,0,0.8);
          min-height: auto;
     }
+}
+
+.menu .logo img {
+    width: 60px;
+    margin-left: 12px;
 }

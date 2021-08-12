@@ -1,6 +1,5 @@
 <header>
-    <div class="container">
-       <div class="header-top">
+       {{-- <div class="header-top">
           <div class="row">
              <div class="col-md-6">
                 <div class="full">
@@ -34,13 +33,16 @@
                 </div>
              </div>
           </div>
-       </div>
+       </div> --}}
        <div class="header-bottom">
           <div class="row">
              <div class="col-md-12">
                 <div class="full">
                    <div class="main-menu-section">
                       <div class="menu">
+                        <div class="logo">
+                           <a href="index.html"><img src="images/rgb-mar18.png" alt="#" /></a>
+                        </div>
                          <nav class="navbar navbar-inverse">
                             <div class="navbar-header">
                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
@@ -129,5 +131,4 @@
              </div>
           </div>
        </div>
-    </div>
  </header>
