@@ -12,25 +12,18 @@
                     <i class="fas fa-table me-1"></i>
                     Types
                 </div>
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="newsActions" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-save fa-lg mr-1"></i>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="newsActions">
-                        <li><a class="dropdown-item" href="#">Publish</a></li>
-                        <li><a class="dropdown-item" href="#">Draft</a></li>
-                        <li><a class="dropdown-item" href="#">Schedule</a></li>
-                    </ul>
-                </div>
             </div>
             <div class="card-body">
-                <form method="post" action="" enctype="multipart/form-data">
+                <form method="post" action="{{ route('admin.types') }}" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group mb-3">
                         <label for="newsType" class="mb-2">Type</label>
                         <input type="text" class="form-control" id="newsType">
                     </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block w-100">
+                        <i class="fas fa-save fa-lg mr-2"></i>Submit
+                    </button>
                 </form>
             </div>
         </div>
