@@ -1,32 +1,40 @@
 <table id="datatablesSimple">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th>Salary</th>
+            @foreach ($col_name as $colName)
+                <th>{{ $colName }}</th>
+            @endforeach
         </tr>
     </thead>
     <tfoot>
         <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th>Salary</th>
+            @foreach ($col_name as $colName)
+                <th>{{ $colName }}</th>
+            @endforeach
         </tr>
     </tfoot>
     <tbody>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011/04/25</td>
-            <td>$320,800</td>
-        </tr>
+        @foreach ($types as $type)
+            <tr>
+                <th>{{ $type['name'] }}</th>
+                <th>{{ $type['created_at'] }}</th>
+                <td>
+                    <a href="{{ route('admin.types.update', $type->id) }}">
+                        <div class="custom-edit-button">Edit</div>
+                    </a>
+                    <form action="{{ route('admin.types.destroy', $type->id) }}" method="POST"
+                        onsubmit="return confirm('Are you sure?');">
+                        @csrf
+                        @method('DELETE')
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="submit" value="Delete">
+                    </form>
+                </td>
+            </tr>
+
+
+
+        @endforeach
+
     </tbody>
 </table>

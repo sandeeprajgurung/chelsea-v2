@@ -38,3 +38,5 @@ Route::get('/admin/news/create', [NewsController::class, 'create'])->name('admin
 
 Route::get('/admin/types', [TypesController::class, 'index'])->name('admin.types');
 Route::post('/admin/types', [TypesController::class, 'store'])->name('admin.types');
+Route::post('/admin/types/update', [TypesController::class, 'update'])->name('admin.types.update');
+Route::delete('/admin/types/{id}', [TypesController::class, 'destroy'])->name('admin.types.destroy');

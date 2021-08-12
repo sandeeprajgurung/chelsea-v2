@@ -17,10 +17,12 @@ class TypesController extends Controller
      */
     public function index()
     {
-        $type = Type::all();
-        $col_name = ["name"];
-        // die($col_name[0]);
-        return view('admin.views.types.index', compact('type', 'col_name'));
+        $types = Type::all();
+        $col_name = [
+            "Name",
+            "Created Date", "Action"
+        ];
+        return view('admin.views.types.index', compact('types', 'col_name'));
     }
 
     /**
