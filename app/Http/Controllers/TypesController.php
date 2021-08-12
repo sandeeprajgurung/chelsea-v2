@@ -6,6 +6,8 @@ use App\Models\Type;
 
 use Illuminate\Http\Request;
 
+use function PHPSTORM_META\type;
+
 class TypesController extends Controller
 {
     /**
@@ -16,7 +18,9 @@ class TypesController extends Controller
     public function index()
     {
         $type = Type::all();
-        return view('admin.views.types.index', compact('type'));
+        $col_name = ["name"];
+        // die($col_name[0]);
+        return view('admin.views.types.index', compact('type', 'col_name'));
     }
 
     /**
