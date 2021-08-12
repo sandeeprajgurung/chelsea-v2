@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\api;
 
-use App\Models\News;
-
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
-class NewsController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +15,8 @@ class NewsController extends Controller
      */
     public function index()
     {
-        return view('admin.views.news.index');
+        $users = User::get();
+        return $users;
     }
 
     /**
@@ -26,7 +26,7 @@ class NewsController extends Controller
      */
     public function create()
     {
-        return view('admin.views.news.create');
+        //
     }
 
     /**
@@ -38,21 +38,22 @@ class NewsController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'newsHeading' => 'required',
-            'editor' => 'required',
-            'newsType' => 'required',
-            // 'status' => 'required',
+            'name' => 'required|string',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6|confirmed',
+            'phone' => 'required|string',
+            'address' => 'required|string',
         ]);
 
-        $news = new News;
-        $news->headline = $request->newsHeading;
-        $news->content = $request->editor;
-        $news->type = $request->newsType;
-        $news->status = "publish";
-        $news->user_id = auth()->user()->id;
-        $news->save();
+        $user = new User;
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = $request->password;
+        $user->phone = $request->phone;
+        $user->address = $request->address;
+        $user->save();
 
-        return redirect()->route('admin.views.news.create');
+        return redirect()->route('content.about');
     }
 
     /**
@@ -74,7 +75,8 @@ class NewsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $user = User::find($id);
+        return view('admin.views.content', compact('about'));
     }
 
     /**

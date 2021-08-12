@@ -79,7 +79,7 @@
  .item {
      display: none;
      position: relative;
-     .transition(s ease-in-out left);
+     transition:(s ease-in-out left);
 }
  .slider-contant h3 {
      font-size: 58px;
@@ -215,11 +215,6 @@
      width: 100%;
      min-height: auto;
      background: #fff;
-}
- .main-menu-section {
-     float: right;
-     width: 100%;
-     padding: 0;
 }
  .right_top_section {
      float: right;
@@ -413,7 +408,6 @@
      font-style: italic;
      font-weight: 300;
      font-size: 18px;
-     background: ;
      border: solid #123689 2px;
 }
  .search-bar {
@@ -469,7 +463,8 @@
      margin-bottom: 0;
 }
  .full {
-     float: left;
+     display: flex;
+     justify-content: center;
      width: 100%;
      margin: 0;
      padding: 0;
@@ -2034,3 +2029,16 @@ body section#contant .post-info span h4 {
     width: 60px;
     margin-left: 12px;
 }
+.logo.logo-base {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    left: 50px;
+    height: 150px;
+    padding: 1rem;
+    background: linear-gradient(to bottom right, white 50%, transparent 50%), linear-gradient(to bottom left, white 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 230% 100%, 230% 100%;
+    background-position: left, right;
+}
+
