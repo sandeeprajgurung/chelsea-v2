@@ -2113,7 +2113,7 @@ aside#sidebar .team-btw-match ul li.vs span {
 	left: 1%;
 	right: 1%;
 	top: 25%;
-	width: 320px;
+	width: 160px;
 	background: center center no-repeat none;
 	background-size: auto auto;
 	background-size: 95px 95px;
@@ -2190,4 +2190,3 @@ section.team h4 {
     font-weight: 500;
     margin-top: 10px !important;
 }
-

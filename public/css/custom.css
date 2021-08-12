@@ -79,7 +79,7 @@
  .item {
      display: none;
      position: relative;
-     .transition(s ease-in-out left);
+     transition:(s ease-in-out left);
 }
  .slider-contant h3 {
      font-size: 58px;
@@ -408,7 +408,6 @@
      font-style: italic;
      font-weight: 300;
      font-size: 18px;
-     background: ;
      border: solid #123689 2px;
 }
  .search-bar {
@@ -464,7 +463,7 @@
      margin-bottom: 0;
 }
  .full {
-     display: flex;
+     /* display: flex; */
      justify-content: center;
      width: 100%;
      margin: 0;
@@ -1374,7 +1373,7 @@ section#contant h4 {
      font-size: 14px;
 }
  .footer-logo img {
-     width: 180px;
+     width: 110px;
      padding-top: 10px;
 }
  .feature-post {
@@ -2026,6 +2025,10 @@ body section#contant .post-info span h4 {
     }
 }
 
+.menu .logo img {
+    width: 60px;
+    margin-left: 12px;
+}
 .logo.logo-base {
     position: absolute;
     top: 0;
@@ -2039,3 +2042,6 @@ body section#contant .post-info span h4 {
     background-position: left, right;
 }
 
+.main-menu-section {
+    width: 100%;
+}

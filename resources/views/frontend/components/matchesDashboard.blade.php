@@ -8,12 +8,12 @@
                             <ul>
                                 <li>
                                     <img src="images/img-03.png" alt="">
-                                    <span>Chelsea FC</span>
+                                    <span>chelsea</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
                                     <img src="images/img-04.png" alt="">
-                                    <span>Real Madrid</span>
+                                    <span>Everton</span>
                                 </li>
                             </ul>
                         </div>

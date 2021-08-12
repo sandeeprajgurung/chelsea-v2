@@ -14,16 +14,27 @@
                 </div>
             </div>
             <div class="card-body">
+<<<<<<< HEAD
                 <form method="post" action="{{ route('admin.types')}}" enctype="multipart/form-data">
+=======
+                <form method="post" action="{{ route('admin.types') }}" enctype="multipart/form-data">
+>>>>>>> 42620daf1c17fb18f9f15c2bc2810de5efe4fdce
                     @csrf
                     <div class="form-group mb-3">
                         <label for="newsType" class="mb-2">Type</label>
                         <input type="text" class="form-control" id="newsType" name="name">
                     </div>
+<<<<<<< HEAD
                     <button type="submit" class="btn btn-primary btn-lg btn-block w-100">
                         <i class="fas fa-save fa-lg mr-2"></i>Submit
                     </button>
 
+=======
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block w-100">
+                        <i class="fas fa-save fa-lg mr-2"></i>Submit
+                    </button>
+>>>>>>> 42620daf1c17fb18f9f15c2bc2810de5efe4fdce
                 </form>
             </div>
         </div>
