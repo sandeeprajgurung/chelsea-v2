@@ -18,13 +18,16 @@
      padding: 10px 15px;
 }
  .skyblue {
-     background-image:url('../images/main-slider-img1.jpg');
+     background-image:url('../images/champions.jpg');
 }
  .darkerskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/tuchel_super_cup.jpg');
 }
  .deepskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/bridge.jpg');
+}
+.lightskyblue {
+    background-image:url('../images/tuchel-mendy-super-cup.jpg');
 }
  .carousel-indicators {
      bottom: 0;
