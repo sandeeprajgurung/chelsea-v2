@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Type;
+
 use Illuminate\Http\Request;
 
 class TypesController extends Controller
@@ -13,7 +15,8 @@ class TypesController extends Controller
      */
     public function index()
     {
-        return view('admin.views.types.index');
+        $type = Type::all();
+        return view('admin.views.types.index', compact('type'));
     }
 
     /**
@@ -23,7 +26,7 @@ class TypesController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.views.types.index');
     }
 
     /**
@@ -34,7 +37,8 @@ class TypesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Type::create($request->all());
+        return view('admin.views.types.index');
     }
 
     /**
@@ -56,7 +60,8 @@ class TypesController extends Controller
      */
     public function edit($id)
     {
-        //
+        $type = Type::find($id);
+        return view('admin.views.types.index', compact('type'));
     }
 
     /**
@@ -68,7 +73,15 @@ class TypesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+        ]);
+        $type = Type::find($id);
+        $type->name = $request->name;
+        $type->save();
+
+        return redirect()->route('admin.views.types.index')
+            ->with('success', 'Type updated successfully');
     }
 
     /**
@@ -79,6 +92,10 @@ class TypesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $type = Type::find($id);
+        $type->delete();
+
+        return redirect()->route('admin.views.types.index')
+            ->with('success', 'Type deleted successfully');
     }
 }

@@ -36,4 +36,4 @@ Route::get('/admin/news', [NewsController::class, 'index'])->name('admin.news');
 Route::get('/admin/news/create', [NewsController::class, 'create'])->name('admin.news.create');
 
 Route::get('/admin/types', [TypesController::class, 'index'])->name('admin.types');
-
+Route::post('/admin/types', [TypesController::class, 'store'])->name('admin.types');
