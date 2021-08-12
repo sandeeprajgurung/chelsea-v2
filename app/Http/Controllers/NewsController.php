@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Type;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -37,7 +38,8 @@ class NewsController extends Controller
      */
     public function create()
     {
-        return view('admin.views.news.create');
+        $types = Type::all();
+        return view('admin.views.news.create', compact('types'));
     }
 
     /**

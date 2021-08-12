@@ -19,26 +19,24 @@
                     @csrf
                     <div class="form-group mb-3">
                         <label for="newsHeading" class="mb-2">Headline</label>
-                        <input type="text" class="form-control" id="newsHeading">
+                        <input type="text" class="form-control" id="newsHeading" name="newsHeading">
                     </div>
                     <div class="form-group mb-3">
                         <label for="newBody" class="mb-2">Another label</label>
-                        <textarea id="editor"></textarea>
+                        <textarea id="editor" name="editor"></textarea>
                     </div>
                     <div class="row mb-3">
                         <div class="form-group col-md-6">
                             <label for="newsType" class="mb-2">Type</label>
-                            <select class="form-control" id="newsType">
-                                <option value="1">Interview</option>
-                                <option value="2">News</option>
-                                <option value="3">History</option>
-                                <option value="4">Analysis</option>
-                                <option value="5">Blog</option>
+                            <select class="form-control" id="newsType" name="newsType">
+                                @foreach ($types as $type)
+                                    <option value={{ $type['id'] }}>{{ $type['name'] }}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="newStatus" class="mb-2">Status</label>
-                            <select class="form-control" id="newStatus">
+                            <select class="form-control" id="newStatus" name="newStatus">
                                 <option value="1">Publish</option>
                                 <option value="2">Draft</option>
                             </select>

@@ -45,7 +45,7 @@ class TypesController extends Controller
     public function store(Request $request)
     {
         Type::create($request->all());
-        return view('admin.views.types.index');
+        return redirect()->route('admin.types');
     }
 
     /**
@@ -102,7 +102,6 @@ class TypesController extends Controller
         $type = Type::find($id);
         $type->delete();
 
-        return redirect()->route('admin.views.types.index')
-            ->with('success', 'Type deleted successfully');
+        return redirect()->route('admin.types');
     }
 }

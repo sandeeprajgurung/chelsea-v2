@@ -13,6 +13,16 @@
                     <div class="sb-nav-link-icon"><i class="far fa-newspaper"></i></div>
                     News
                 </a>
+                <a class="nav-link" href="{{ route('admin.news') }}">
+                    <div class="sb-nav-link-icon"><i class="far fa-newspaper"></i></div>
+                    Shop
+                </a>
+
+                <div class="sb-sidenav-menu-heading">Layout</div>
+                <a class="nav-link" href="{{ route('admin.news') }}">
+                    <div class="sb-nav-link-icon"><i class="far fa-newspaper"></i></div>
+                    Banner
+                </a>
 
                 <div class="sb-sidenav-menu-heading">Settings</div>
                 <a class="nav-link {{ Request::is('admin/types') ? 'active' : ''}}" href="{{ route('admin.types') }}">
