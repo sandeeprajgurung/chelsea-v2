@@ -29,14 +29,15 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Route::get('/admin/login', [DashboardController::class, 'index']);
-// Route::get('/admin/register', [DashboardController::class, 'index']);
 Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
 Route::get('/admin/news', [NewsController::class, 'index'])->name('admin.news');
 Route::post('/admin/news', [NewsController::class, 'store'])->name('admin.news');
 Route::get('/admin/news/create', [NewsController::class, 'create'])->name('admin.news.create');
+Route::post('/admin/news/{id}', [NewsController::class, 'update'])->name('admin.news.update');
+Route::delete('/admin/news/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
 
 Route::get('/admin/types', [TypesController::class, 'index'])->name('admin.types');
 Route::post('/admin/types', [TypesController::class, 'store'])->name('admin.types');
-Route::post('/admin/types/update', [TypesController::class, 'update'])->name('admin.types.update');
+Route::post('/admin/types/{id}', [TypesController::class, 'update'])->name('admin.types.update');
 Route::delete('/admin/types/{id}', [TypesController::class, 'destroy'])->name('admin.types.destroy');

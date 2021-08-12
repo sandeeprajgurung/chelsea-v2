@@ -16,7 +16,18 @@ class NewsController extends Controller
      */
     public function index()
     {
-        return view('admin.views.news.index');
+        $news = News::all();
+        $col_name = [
+            "Added By",
+            "Headline",
+            "Type",
+            "Status",
+            "Created Date",
+            "Action"
+        ];
+        $status = "news";
+        return view('admin.views.news.index', compact('news', 'col_name', 'status'));
+        // return view('admin.views.news.index');
     }
 
     /**

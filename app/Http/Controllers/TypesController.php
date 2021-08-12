@@ -22,7 +22,8 @@ class TypesController extends Controller
             "Name",
             "Created Date", "Action"
         ];
-        return view('admin.views.types.index', compact('types', 'col_name'));
+        $status = "types";
+        return view('admin.views.types.index', compact('types', 'col_name', 'status'));
     }
 
     /**
