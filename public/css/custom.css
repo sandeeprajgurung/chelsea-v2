@@ -549,7 +549,7 @@
 }
  .right-match-time {
      text-align: center;
-     padding: 63px 0 62px;
+     padding: 78px 0 62px;
      background: url('../images/match-start-img.png');
      background-size: cover;
      color: #fff;
@@ -576,7 +576,7 @@
      padding: 10px 20px;
      list-style: none;
      float: none;
-     width: auto;
+     width: calc(100% - 48px);
 }
  .right-match-time ul li {
      font-size: 30px;
