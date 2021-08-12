@@ -7,13 +7,13 @@
                         <div class="team-btw-match">
                             <ul>
                                 <li>
-                                    <img src="images/img-03.png" alt="">
-                                    <span>chelsea</span>
+                                    <img src="images/arsenal-big.png" alt="">
+                                    <span>Arsenal</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-04.png" alt="">
-                                    <span>Everton</span>
+                                    <img src="images/chelsea-big.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                             </ul>
                         </div>
@@ -28,12 +28,16 @@
                 <div class="right-match-time">
                     <h2>Next Match</h2>
                     <ul id="countdown-1" class="countdown">
-                        <li><span class="days">10 </span>Day </li>
+                    <span>Premier League</span><br/>
+                    <span>Sunday</span>
+                    <span>August 22, 2021</span><br/>
+                    <span>21:15</span>
+                        <!-- <li><span class="days">10 </span>Day </li>
                         <li><span class="hours">5 </span>Hours </li>
                         <li><span class="minutes">25 </span>Minutes </li>
-                        <li><span class="seconds">10 </span>Seconds </li>
+                        <li><span class="seconds">10 </span>Seconds </li> -->
                     </ul>
-                    <span>12/02/2017 /19:00pm</span>
+                    <!-- <span>22/08/2021 21:15pm</span> -->
                 </div>
             </div>
         </div>

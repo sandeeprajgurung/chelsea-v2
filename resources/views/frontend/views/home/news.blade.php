@@ -14,57 +14,57 @@
                         <div class="team-btw-match">
                             <ul>
                                 <li>
-                                    <img src="images/img-01_002.png" alt="">
-                                    <span>Portugal</span>
+                                    <img src="images/chelsea_thumb.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-02.png" alt="">
-                                    <span>Germany</span>
+                                    <img src="images/cp.png" alt="">
+                                    <span>Crystal Palace</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <img src="images/img-03_002.png" alt="">
-                                    <span>Portugal</span>
+                                    <img src="images/arsenal.png" alt="">
+                                    <span>Arsenal</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-04_003.png" alt="">
-                                    <span>Germany</span>
+                                    <img src="images/chelsea_thumb.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <img src="images/img-05_002.png" alt="">
-                                    <span>Portugal</span>
+                                    <img src="images/liverpool.png" alt="">
+                                    <span>Liverpool</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-06.png" alt="">
-                                    <span>Germany</span>
+                                    <img src="images/chelsea_thumb.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <img src="images/img-07_002.png" alt="">
-                                    <span>Portugal</span>
+                                    <img src="images/chelsea_thumb.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-08.png" alt="">
-                                    <span>Germany</span>
+                                    <img src="images/avfc.png" alt="">
+                                    <span>Aston Villa</span>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <img src="images/img-05_002.png" alt="">
-                                    <span>Portugal</span>
+                                    <img src="images/tottenham.png" alt="">
+                                    <span>Tottenham</span>
                                 </li>
                                 <li class="vs"><span>vs</span></li>
                                 <li>
-                                    <img src="images/img-06.png" alt="">
-                                    <span>Germany</span>
+                                    <img src="images/chelsea_thumb.png" alt="">
+                                    <span>Chelsea</span>
                                 </li>
                             </ul>
                         </div>
@@ -86,45 +86,45 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td><img src="images/img-01_004.png" alt="">Liverpool</td>
-                                    <td>10</td>
-                                    <td>12</td>
-                                    <td>20</td>
+                                    <td><img src="images/arsenal.png" alt="">Arsenal</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td><img src="images/img-02_002.png" alt="">Chelsea</td>
-                                    <td>10</td>
-                                    <td>12</td>
-                                    <td>20</td>
+                                    <td><img src="images/avfc.png" alt="">Aston Villa</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td><img src="images/img-03_003.png" alt="">Norwich City</td>
-                                    <td>20</td>
-                                    <td>15</td>
-                                    <td>20</td>
+                                    <td><img src="images/bfc.png" alt="">Brentford</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td><img src="images/img-04_002.png" alt="">West Brom</td>
-                                    <td>60</td>
-                                    <td>10</td>
-                                    <td>60</td>
+                                    <td><img src="images/bha.png" alt="">Brighton</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td><img src="images/img-05.png" alt="">sunderland</td>
-                                    <td>30</td>
-                                    <td>06</td>
-                                    <td>30</td>
+                                    <td><img src="images/img-05.png" alt="">Burnley</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td><img src="images/img-01_004.png" alt="">Liverpool</td>
-                                    <td>10</td>
-                                    <td>12</td>
-                                    <td>20</td>
+                                    <td>6</td>
+                                    <td><img src="images/chelsea_thumb.png" alt="">Chelsea</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                             </tbody>
                         </table>
